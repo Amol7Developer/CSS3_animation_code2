@@ -1,0 +1,18 @@
+div {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+    from{border-color: black;}
+    to {border-color: blue;}
+    from{border-radius: 10px;}
+    to{border-radius: 100px;}
+  }
