@@ -1,0 +1,16 @@
+/* Define the keyframes */
+@keyframes example {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+  }
+  
+  /* Apply the animation to an element */
+  .element {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
