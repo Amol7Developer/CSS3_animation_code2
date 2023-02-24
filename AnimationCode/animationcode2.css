@@ -5,6 +5,9 @@ div {
     border: 1px solid black;
   }
   
-  div#myDiv {
+  div#myDiv1 {
     transform: rotate(20deg);
+  }
+  div#myDiv2 {
+    transform: rotate(-20deg);
   }
