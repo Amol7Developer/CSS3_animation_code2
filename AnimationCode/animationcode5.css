@@ -1,8 +1,17 @@
-div {
+div#box1 {
     margin: 150px;
     width: 200px;
     height: 100px;
     background-color: rgb(255, 204, 0);
     border: 1px solid black;
     transform: scaleX(2);
+  }
+
+  div#box2 {
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: scaleX(0.5);
   }
