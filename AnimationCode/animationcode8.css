@@ -1,0 +1,15 @@
+div {
+    width: 300px;
+    height: 100px;
+    background-color: rgb(83, 157, 247);
+    border: 1px solid black;
+  }
+  
+  div#myDiv {
+    transform: skew(20deg,10deg);
+  }
+
+  
+div#myDiv1 {
+    transform: skew(20deg);
+  }
