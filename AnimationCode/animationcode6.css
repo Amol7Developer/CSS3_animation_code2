@@ -1,0 +1,17 @@
+div#box1 {
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(255, 162, 0);
+    border: 1px solid black;
+    transform: scaleY(3);
+  }
+
+div#box2 {
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(206, 124, 10);
+    border: 1px solid black;
+    transform: scaleY(0.5);
+}
